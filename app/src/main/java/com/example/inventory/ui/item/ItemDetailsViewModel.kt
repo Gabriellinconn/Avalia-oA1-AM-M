@@ -39,5 +39,5 @@ class ItemDetailsViewModel(
  */
 data class ItemDetailsUiState(
     val outOfStock: Boolean = true,
-    val itemDetails: ItemDetails = ItemDetails()
+    val itemDetails: ItemEntryViewModel.ItemDetails = ItemEntryViewModel.ItemDetails()
 )
